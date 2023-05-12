@@ -149,6 +149,7 @@ hr {
         margin-bottom: 30px;
         height: 100px;
         width: 100px;
+        margine-left: 10px;
         float: none;
         display: inline;
     }
