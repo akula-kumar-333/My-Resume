@@ -1,0 +1,175 @@
+div {
+    position: relative;
+}
+
+.body > .no-margin {
+    margin: 0px;
+}
+
+.top-margin {
+    margin-bottom: 0px;
+}
+
+div.body{
+    background-color: white;
+    margin: 0px;
+    border: 5px solid black;
+    padding-bottom: 10px;
+    padding-top: 0%;
+    margin-top: 0px;
+}
+
+#main {
+    background-color: blue;
+    margin-top: 0px;
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+}
+
+.center-align.title {
+    text-align: center;
+    font-family: 'Tinos', serif;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.body .profile .center-align {
+    text-align: center;
+    margin-left: 41%;
+    margin-right: 41%;
+    display: inline-block;
+}
+
+img {
+    border-radius: 30%;
+    margin-top: 5px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 3px solid black;
+}
+
+.profile.information .list {
+    text-align: left;
+    background-color: white;
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+}
+
+div.information > .list {
+    color: black;
+    padding-left: 38px;
+
+}
+
+div ul.list-blue {
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+}
+
+div .anchor {
+    text-align: center;
+    background-color: blue;
+}
+
+div.anchor > hr {
+    margin-top: 0px;
+}
+
+div.anchor > hr > hr {
+    margin-bottom: 0px;
+}
+
+div .anchor > a {
+    color: black;
+    background-color: white;
+    width: 10px;
+    height: 20px;
+    border-radius: 3%;
+}
+
+div.center-align footer.footer {
+    text-align: center;
+    background-color: #000;
+    color: white;
+    padding: 10px;
+}
+
+h3 {
+    padding-left: 15px;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+hr {
+    border-color: black;
+}
+
+@media (min-width:320px) and (max-width:915px) {
+    
+    body {
+        width: 100%;
+        text-align: justify;
+    }
+    
+    
+    h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    #main {
+        display: block;
+        width: 100%;
+        text-align: justify;
+    }
+
+    div.profile-information {
+        display: inline-block;
+        text-align: justify;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .profile-information > img {
+        object-fit: cover;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 100px;
+        width: 100px;
+        float: none;
+        display: inline;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .anchor {
+        display: block;
+        width: 100%;
+    }
+
+    div.center-align {
+        width: 100%;
+        display: block;
+    }
+
+    .footer {
+        text-align: center;
+        margin-bottom: 30px;
+        display: block;
+    }
+}
